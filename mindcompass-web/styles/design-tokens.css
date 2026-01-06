@@ -1,11 +1,11 @@
 /* =========================================
-   🧭 MindCompass Design System
+   🚀 Avolve Design System
    CSS Custom Properties & Design Tokens
    ========================================= */
 
 :root {
   /* ===== Color Palette ===== */
-  
+
   /* Primary - Calming Blue (Mental wellness focus) */
   --color-primary-50: #eff6ff;
   --color-primary-100: #dbeafe;
@@ -102,16 +102,26 @@
   --font-family-serif: 'Merriweather', Georgia, 'Times New Roman', serif;
   --font-family-mono: 'JetBrains Mono', 'Fira Code', Consolas, monospace;
 
-  --font-size-xs: 0.75rem;     /* 12px */
-  --font-size-sm: 0.875rem;    /* 14px */
-  --font-size-base: 1rem;      /* 16px */
-  --font-size-lg: 1.125rem;    /* 18px */
-  --font-size-xl: 1.25rem;     /* 20px */
-  --font-size-2xl: 1.5rem;     /* 24px */
-  --font-size-3xl: 1.875rem;   /* 30px */
-  --font-size-4xl: 2.25rem;    /* 36px */
-  --font-size-5xl: 3rem;       /* 48px */
-  --font-size-6xl: 3.75rem;    /* 60px */
+  --font-size-xs: 0.75rem;
+  /* 12px */
+  --font-size-sm: 0.875rem;
+  /* 14px */
+  --font-size-base: 1rem;
+  /* 16px */
+  --font-size-lg: 1.125rem;
+  /* 18px */
+  --font-size-xl: 1.25rem;
+  /* 20px */
+  --font-size-2xl: 1.5rem;
+  /* 24px */
+  --font-size-3xl: 1.875rem;
+  /* 30px */
+  --font-size-4xl: 2.25rem;
+  /* 36px */
+  --font-size-5xl: 3rem;
+  /* 48px */
+  --font-size-6xl: 3.75rem;
+  /* 60px */
 
   --font-weight-light: 300;
   --font-weight-normal: 400;
@@ -134,29 +144,49 @@
 
   /* ===== Spacing ===== */
   --space-0: 0;
-  --space-1: 0.25rem;   /* 4px */
-  --space-2: 0.5rem;    /* 8px */
-  --space-3: 0.75rem;   /* 12px */
-  --space-4: 1rem;      /* 16px */
-  --space-5: 1.25rem;   /* 20px */
-  --space-6: 1.5rem;    /* 24px */
-  --space-8: 2rem;      /* 32px */
-  --space-10: 2.5rem;   /* 40px */
-  --space-12: 3rem;     /* 48px */
-  --space-16: 4rem;     /* 64px */
-  --space-20: 5rem;     /* 80px */
-  --space-24: 6rem;     /* 96px */
-  --space-32: 8rem;     /* 128px */
+  --space-1: 0.25rem;
+  /* 4px */
+  --space-2: 0.5rem;
+  /* 8px */
+  --space-3: 0.75rem;
+  /* 12px */
+  --space-4: 1rem;
+  /* 16px */
+  --space-5: 1.25rem;
+  /* 20px */
+  --space-6: 1.5rem;
+  /* 24px */
+  --space-8: 2rem;
+  /* 32px */
+  --space-10: 2.5rem;
+  /* 40px */
+  --space-12: 3rem;
+  /* 48px */
+  --space-16: 4rem;
+  /* 64px */
+  --space-20: 5rem;
+  /* 80px */
+  --space-24: 6rem;
+  /* 96px */
+  --space-32: 8rem;
+  /* 128px */
 
   /* ===== Border Radius ===== */
   --radius-none: 0;
-  --radius-sm: 0.125rem;    /* 2px */
-  --radius-default: 0.25rem; /* 4px */
-  --radius-md: 0.375rem;    /* 6px */
-  --radius-lg: 0.5rem;      /* 8px */
-  --radius-xl: 0.75rem;     /* 12px */
-  --radius-2xl: 1rem;       /* 16px */
-  --radius-3xl: 1.5rem;     /* 24px */
+  --radius-sm: 0.125rem;
+  /* 2px */
+  --radius-default: 0.25rem;
+  /* 4px */
+  --radius-md: 0.375rem;
+  /* 6px */
+  --radius-lg: 0.5rem;
+  /* 8px */
+  --radius-xl: 0.75rem;
+  /* 12px */
+  --radius-2xl: 1rem;
+  /* 16px */
+  --radius-3xl: 1.5rem;
+  /* 24px */
   --radius-full: 9999px;
 
   /* ===== Shadows ===== */
@@ -193,17 +223,28 @@
   --z-max: 9999;
 
   /* ===== Container ===== */
-  --container-xs: 20rem;    /* 320px */
-  --container-sm: 24rem;    /* 384px */
-  --container-md: 28rem;    /* 448px */
-  --container-lg: 32rem;    /* 512px */
-  --container-xl: 36rem;    /* 576px */
-  --container-2xl: 42rem;   /* 672px */
-  --container-3xl: 48rem;   /* 768px */
-  --container-4xl: 56rem;   /* 896px */
-  --container-5xl: 64rem;   /* 1024px */
-  --container-6xl: 72rem;   /* 1152px */
-  --container-7xl: 80rem;   /* 1280px */
+  --container-xs: 20rem;
+  /* 320px */
+  --container-sm: 24rem;
+  /* 384px */
+  --container-md: 28rem;
+  /* 448px */
+  --container-lg: 32rem;
+  /* 512px */
+  --container-xl: 36rem;
+  /* 576px */
+  --container-2xl: 42rem;
+  /* 672px */
+  --container-3xl: 48rem;
+  /* 768px */
+  --container-4xl: 56rem;
+  /* 896px */
+  --container-5xl: 64rem;
+  /* 1024px */
+  --container-6xl: 72rem;
+  /* 1152px */
+  --container-7xl: 80rem;
+  /* 1280px */
 
   /* ===== Breakpoints (for reference in JS) ===== */
   --breakpoint-sm: 640px;
@@ -219,29 +260,29 @@
   --background: var(--color-neutral-50);
   --background-secondary: var(--color-neutral-100);
   --background-tertiary: var(--color-neutral-200);
-  
+
   --foreground: var(--color-neutral-900);
   --foreground-secondary: var(--color-neutral-700);
   --foreground-muted: var(--color-neutral-500);
-  
+
   --border: var(--color-neutral-200);
   --border-hover: var(--color-neutral-300);
   --border-focus: var(--color-primary-500);
-  
+
   --card: #ffffff;
   --card-hover: var(--color-neutral-50);
-  
+
   --input-background: #ffffff;
   --input-border: var(--color-neutral-300);
-  
+
   --primary: var(--color-primary-600);
   --primary-hover: var(--color-primary-700);
   --primary-foreground: #ffffff;
-  
+
   --secondary: var(--color-secondary-600);
   --secondary-hover: var(--color-secondary-700);
   --secondary-foreground: #ffffff;
-  
+
   --accent: var(--color-accent-500);
   --accent-hover: var(--color-accent-600);
   --accent-foreground: #ffffff;
@@ -255,29 +296,29 @@
   --background: var(--color-neutral-950);
   --background-secondary: var(--color-neutral-900);
   --background-tertiary: var(--color-neutral-800);
-  
+
   --foreground: var(--color-neutral-50);
   --foreground-secondary: var(--color-neutral-300);
   --foreground-muted: var(--color-neutral-400);
-  
+
   --border: var(--color-neutral-800);
   --border-hover: var(--color-neutral-700);
   --border-focus: var(--color-primary-400);
-  
+
   --card: var(--color-neutral-900);
   --card-hover: var(--color-neutral-800);
-  
+
   --input-background: var(--color-neutral-900);
   --input-border: var(--color-neutral-700);
-  
+
   --primary: var(--color-primary-500);
   --primary-hover: var(--color-primary-400);
   --primary-foreground: #ffffff;
-  
+
   --secondary: var(--color-secondary-500);
   --secondary-hover: var(--color-secondary-400);
   --secondary-foreground: #ffffff;
-  
+
   --accent: var(--color-accent-400);
   --accent-hover: var(--color-accent-300);
   --accent-foreground: var(--color-neutral-900);
@@ -292,29 +333,29 @@
     --background: var(--color-neutral-950);
     --background-secondary: var(--color-neutral-900);
     --background-tertiary: var(--color-neutral-800);
-    
+
     --foreground: var(--color-neutral-50);
     --foreground-secondary: var(--color-neutral-300);
     --foreground-muted: var(--color-neutral-400);
-    
+
     --border: var(--color-neutral-800);
     --border-hover: var(--color-neutral-700);
     --border-focus: var(--color-primary-400);
-    
+
     --card: var(--color-neutral-900);
     --card-hover: var(--color-neutral-800);
-    
+
     --input-background: var(--color-neutral-900);
     --input-border: var(--color-neutral-700);
-    
+
     --primary: var(--color-primary-500);
     --primary-hover: var(--color-primary-400);
     --primary-foreground: #ffffff;
-    
+
     --secondary: var(--color-secondary-500);
     --secondary-hover: var(--color-secondary-400);
     --secondary-foreground: #ffffff;
-    
+
     --accent: var(--color-accent-400);
     --accent-hover: var(--color-accent-300);
     --accent-foreground: var(--color-neutral-900);

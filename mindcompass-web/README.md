@@ -1,15 +1,18 @@
-# 🧭 MindCompass Web
+# 🚀 Avolve
 
-A modern web application for mental wellness tracking, journaling, and goal setting. Built with Next.js 14+, TypeScript, and Tailwind CSS.
+A modern web application built with Next.js 14+, TypeScript, and Tailwind CSS.
 
-## 🚀 Tech Stack
+## 🎯 About Avolve
+
+Avolve is a creative digital agency building exceptional web experiences. We craft modern, high-performance applications that help businesses grow and evolve.
+
+## 🛠️ Tech Stack
 
 - **Framework**: Next.js 14+ (App Router)
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS + Custom CSS Variables
 - **State Management**: Zustand
 - **Data Fetching**: TanStack Query + Axios
-- **Backend**: FastAPI (separate repo)
 - **Authentication**: Firebase Auth
 - **Database**: Firebase Firestore
 - **Storage**: Firebase Storage
@@ -19,7 +22,7 @@ A modern web application for mental wellness tracking, journaling, and goal sett
 ## 📁 Project Structure
 
 ```
-mindcompass-web/
+avolve-web/
 ├── app/                    # Next.js App Router
 │   ├── (auth)/            # Auth routes (login, signup, etc.)
 │   ├── (dashboard)/       # Protected dashboard routes
@@ -58,7 +61,7 @@ mindcompass-web/
 1. Clone the repository:
 ```bash
 git clone https://github.com/Shanmukha-Vardhan/Avolve.git
-cd mindcompass-web
+cd Avolve/mindcompass-web
 ```
 
 2. Install dependencies:
@@ -89,7 +92,7 @@ The app uses a comprehensive design system with CSS variables for:
 - **Spacing**: Consistent spacing scale (4px base unit)
 - **Shadows**: Elevation system for depth
 - **Border Radius**: Rounded corners scale
-- **Animations**: Smooth transitions and micro-interactions
+- **Themes**: Light & dark mode with system preference detection
 
 ### Theme Support
 
@@ -116,20 +119,9 @@ npm run format   # Format code with Prettier
 3. Create a Firestore database
 4. Copy your config to `.env.local`
 
-### FastAPI Backend
+### API Backend
 
-The app expects a FastAPI backend running at `http://localhost:8000`. Update `NEXT_PUBLIC_API_URL` in `.env.local` if different.
-
-## 📱 Features (Planned)
-
-- [x] Project foundation
-- [ ] User authentication (Email, Google)
-- [ ] Mood tracking
-- [ ] Journaling with prompts
-- [ ] Goal setting & tracking
-- [ ] Progress insights & charts
-- [ ] Notifications & reminders
-- [ ] Data export
+Update `NEXT_PUBLIC_API_URL` in `.env.local` to point to your backend.
 
 ## 🤝 Contributing
 
@@ -145,4 +137,4 @@ This project is private and proprietary.
 
 ---
 
-Built with ❤️ for mental wellness
+Built with ❤️ by **Avolve**

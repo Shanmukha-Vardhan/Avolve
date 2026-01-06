@@ -17,46 +17,46 @@ const merriweather = Merriweather({
 
 export const metadata: Metadata = {
   title: {
-    default: 'MindCompass - Your Mental Wellness Journey',
-    template: '%s | MindCompass',
+    default: 'Avolve - Evolve Your Digital Presence',
+    template: '%s | Avolve',
   },
   description:
-    'Navigate your mental wellness journey with MindCompass. Track moods, journal thoughts, set goals, and discover personalized insights for better mental health.',
+    'Avolve is a creative digital agency building exceptional web experiences. We craft modern, high-performance applications that help businesses grow and evolve.',
   keywords: [
-    'mental health',
-    'wellness',
-    'mood tracking',
-    'journaling',
-    'self-care',
-    'mindfulness',
-    'goal setting',
-    'mental wellness app',
+    'digital agency',
+    'web development',
+    'web design',
+    'software development',
+    'creative agency',
+    'Next.js',
+    'React',
+    'modern web',
   ],
-  authors: [{ name: 'MindCompass Team' }],
-  creator: 'MindCompass',
-  publisher: 'MindCompass',
+  authors: [{ name: 'Avolve Team' }],
+  creator: 'Avolve',
+  publisher: 'Avolve',
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://mindcompass.app',
-    siteName: 'MindCompass',
-    title: 'MindCompass - Your Mental Wellness Journey',
+    url: 'https://avolve.studio',
+    siteName: 'Avolve',
+    title: 'Avolve - Evolve Your Digital Presence',
     description:
-      'Navigate your mental wellness journey with MindCompass. Track moods, journal thoughts, set goals, and discover personalized insights.',
+      'Avolve is a creative digital agency building exceptional web experiences. We craft modern, high-performance applications.',
     images: [
       {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'MindCompass - Mental Wellness App',
+        alt: 'Avolve - Creative Digital Agency',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'MindCompass - Your Mental Wellness Journey',
+    title: 'Avolve - Evolve Your Digital Presence',
     description:
-      'Navigate your mental wellness journey with MindCompass. Track moods, journal thoughts, and set goals.',
+      'Avolve is a creative digital agency building exceptional web experiences.',
     images: ['/og-image.png'],
   },
   robots: {
